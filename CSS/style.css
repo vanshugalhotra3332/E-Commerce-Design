@@ -1,0 +1,122 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #navbar {
+        margin-top: 20px;
+        margin-left: 0;
+        font-family: var(--font1);
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #navbar::before {
+        content: "";
+        background: linear-gradient(to right, #006AB7 0%, #3d3326 100%);
+        opacity: 0.75!important;
+        position: absolute;
+        height: 90%;
+        width: 124%;
+        z-index: -1;
+        opacity: 0.4;
+        top: 0px;
+        left: 0px;
+    }
+    
+    .nav-left {
+        display: flex;
+    }
+    
+    .logo {
+        margin-left: 25px;
+    }
+    
+    .logo img {
+        padding-top: 10px;
+        height: 5rem;
+    }
+    
+    .nav-left ul {
+        display: flex;
+        align-items: center;
+        margin: 0px 77px;
+        margin-top: 10px;
+        font-size: 22px;
+        font-weight: bold;
+        padding-bottom: 23px;
+    }
+    
+    .nav-left ul li {
+        list-style: none;
+        margin: 0px 14px;
+        font-family: var(--font2);
+    }
+    
+    .nav-left ul li a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 1.3rem;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .nav-left ul li a:hover {
+        color: rgb(0, 0, 0);
+        background-color: var(--main-color);
+        border-radius: 20px;
+        font-weight: bolder;
+    }
+    
+    .content {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        margin-top: 0px;
+        padding: 6px;
+        border-radius: 27px;
+    }
+    
+    .content::before {
+        content: "";
+        background: url(../img/back.jpg) no-repeat center center/cover;
+        z-index: -1;
+        position: absolute;
+        top: 113px;
+        left: 0px;
+        background-position: center 0;
+        width: 100%;
+        height: inherit;
+    }
+    
+    .content-text h1 {
+        font-family: var(--font1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 82px;
+        /* padding-right: 20px; */
+        font-size: 5rem;
+        color: rgb(255, 255, 255);
+        z-index: 1;
+        margin: 0px -5px;
+    }
+    
+    .content-text span {
+        font-family: var(--font1);
+        color: white;
+        font-size: 1.3rem;
+        z-index: 1;
+    }
+    
+    .content-btns {
+        margin-top: 15px;
+    }
+    
+    .content-btns a {
+        margin: 0px 5px;
+        text-decoration: none;
+    }
