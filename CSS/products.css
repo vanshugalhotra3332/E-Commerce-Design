@@ -1,0 +1,30 @@
+.content::after {
+    background: url(../img/products/pro.webp) no-repeat center center/cover;
+    opacity: 0.8;
+}
+
+.content-text h1,
+.content-text span {
+    color: #c63176;
+}
+
+#navbar::before {
+    content: "";
+    background: linear-gradient(to right, #c63176 0%, #e1cea8 100%);
+    opacity: 0.75!important;
+    position: absolute;
+    height: 90%;
+    width: 124%;
+    z-index: -1;
+    opacity: 0.4;
+    top: 0px;
+    left: 0px;
+}
+
+.products-heading {
+    text-align: center;
+}
+
+.product-item {
+    margin-left: 50px;
+}

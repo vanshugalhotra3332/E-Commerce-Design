@@ -3,6 +3,10 @@
         padding: 0;
     }
     
+    html {
+        scroll-behavior: smooth;
+    }
+    
     #navbar {
         margin-top: 20px;
         margin-left: 0;
@@ -80,7 +84,7 @@
         border-radius: 27px;
     }
     
-    .content::before {
+    .content::after {
         content: "";
         background: url(../img/back.jpg) no-repeat center center/cover;
         z-index: -1;
@@ -89,7 +93,12 @@
         left: 0px;
         background-position: center 0;
         width: 100%;
-        height: inherit;
+        height: 88%;
+    }
+    
+    .content-text {
+        position: relative;
+        top: -85px;
     }
     
     .content-text h1 {
@@ -97,18 +106,18 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-top: 82px;
+        padding-top: 237px;
         /* padding-right: 20px; */
         font-size: 5rem;
         color: rgb(255, 255, 255);
-        z-index: 1;
-        margin: 0px -5px;
+        z-index: -1;
+        margin: 0px -4px;
     }
     
     .content-text span {
         font-family: var(--font1);
         color: white;
-        font-size: 1.3rem;
+        font-size: 3.3rem;
         z-index: 1;
     }
     
@@ -119,4 +128,52 @@
     .content-btns a {
         margin: 0px 5px;
         text-decoration: none;
+    }
+    
+    .products {
+        position: relative;
+        top: 46px;
+        text-align: center;
+    }
+    
+    .products-heading {
+        margin-bottom: 38px;
+    }
+    
+    .products-items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .footer {
+        margin-top: 70px;
+    }
+    
+    .footer img {
+        height: 140px;
+    }
+    
+    .footer h1 {
+        position: relative;
+        top: 105px;
+        left: 78px;
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
+        z-index: 1;
+    }
+    
+    #shopBtn {
+        text-decoration: none;
+        bottom: 88px;
+        left: 1100px;
+        background-color: rgb(14, 13, 13);
+        z-index: 2;
+    }
+    
+    #shopBtn:hover {
+        background-color: rgb(17, 17, 93);
+        cursor: pointer;
+        border-radius: 5px;
     }

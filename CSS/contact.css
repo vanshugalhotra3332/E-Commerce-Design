@@ -1,0 +1,31 @@
+.content::after {
+    background: url(../img/cont.avif) no-repeat center center/cover;
+    transition: all 0.3s ease;
+    /* opacity: 0.85!important; */
+}
+
+.content-text h1 {
+    padding-top: 150px;
+}
+
+.content-text span {
+    font-size: 2rem;
+}
+
+.contact {
+    height: 100vh;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.form-box input,
+.form-box textarea {
+    border: 2px solid;
+}
+
+.contact-right {
+    margin-left: 60px;
+}

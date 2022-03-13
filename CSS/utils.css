@@ -55,3 +55,35 @@
     color: white;
     border-radius: 5px;
 }
+
+.img-div {
+    position: relative;
+    margin: 10px auto;
+    overflow: hidden;
+    border: 8px solid #fff;
+    box-shadow: 1px 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.img-div img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.img-div:hover img {
+    transform: scale(1.2);
+}
+
+.form-box input,
+textarea {
+    width: 52vw;
+    padding: 0px px;
+    margin: 7px 0;
+    font-size: 18px;
+    font-family: var(--font1);
+    border: 2px solid var(--main-bg-color);
+    border-radius: 5px;
+}
