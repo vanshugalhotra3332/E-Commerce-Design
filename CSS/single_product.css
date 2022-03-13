@@ -1,0 +1,49 @@
+.single-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.single-product-desc {
+    max-width: 501px;
+    position: relative;
+    /* bottom: 10px; */
+    right: 23px;
+}
+
+.product-text {
+    margin: 10px 0px;
+}
+
+.product-heading h3 {
+    display: inline;
+    margin-right: 20px;
+}
+
+.product-text span {
+    font-size: 1.2rem;
+}
+
+.product-img {
+    position: relative;
+    right: 114px;
+}
+
+.product-heading {
+    position: relative;
+    top: -20px;
+    margin-bottom: 20px;
+}
+
+.product-etc {
+    padding-top: 20px;
+}
+
+.product-etc span {
+    padding-top: 10px;
+}
+
+.related-products {
+    margin-top: 70px;
+}

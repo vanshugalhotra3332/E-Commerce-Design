@@ -87,3 +87,7 @@ textarea {
     border: 2px solid var(--main-bg-color);
     border-radius: 5px;
 }
+
+.bold {
+    font-weight: bold;
+}

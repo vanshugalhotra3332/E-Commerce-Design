@@ -8,11 +8,110 @@
     <title>Brown Coat</title>
     <link rel="stylesheet" href="CSS/utils.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="CSS/products.css">
     <link rel="stylesheet" href="CSS/single_product.css">
 </head>
 
 <body>
+    <nav id="navbar" class="max-width-1 m-auto">
 
+        <div class="nav-left">
+            <div class="logo">
+                <a href="/index.html">
+                    <img src="img/logo.png" alt="logo"></a>
+            </div>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/products.html">Products</a>
+                    <li><a href="/index.html#products">Categories</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="single-product max-width-1 m-auto">
+        <div class="product-img img-div">
+            <img src="img/Products/11_.jpg">
+        </div>
+        <div class="single-product-desc font2">
+            <div class="product-heading">
+                <h1 style="margin-bottom: 20px;">Brown Coat</h1>
+                <strike>
+                    <h3> Rs 5500</h3>
+                </strike>
+                <h3>Rs 4500</h3>
+            </div>
+            <hr>
+            <div class="product-text font1">
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nemo illo sunt? Ut, tempore eum ex
+                    sequi optio aspernatur dignissimos? Sequi natus delectus modi vero dolor laboriosam! Dolore nemo
+                    quae molestias porro ratione facilis odit, culpa, earum ipsam, voluptate cumque? Fugiat voluptate,
+                    ad suscipit unde sunt eaque? Necessitatibus, exercitationem harum!</span>
+            </div>
+            <button class="btn">
+                Add To Cart
+            </button>
+            <div class="product-etc">
+                <span class="bold">SKU :</span><span>15</span><br><br>
+                <span class="bold">Category :</span><span>Clothing</span><br><br>
+                <span class="bold">Tags :</span><span>Women, Clothing, Coat</span><br>
+            </div>
+        </div>
+    </div>
+
+    <div class="related-products max-width-1 m-auto">
+        <h1 style="text-align: center;" class="bold m-auto font2">Related Products</h1>
+        <div class="products-items">
+            <div class="product-item">
+                <div class="img-div">
+                    <a href="/single_product.html"><img src="/img/Products/1.jpg"></a>
+                </div>
+                <div class="product-desc font2">
+                    <h3>Brown Coat</h3>
+                    <h4>Rs 4500</h4>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="img-div">
+                    <a href="/single_product.html"><img src="/img/Products/2.jpg"></a>
+                </div>
+                <div class="product-desc font2">
+                    <h3>Brown Coat</h3>
+                    <h4>Rs 4500</h4>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="img-div">
+                    <a href="/single_product.html"><img src="/img/Products/3.jpg"></a>
+                </div>
+                <div class="product-desc font2">
+                    <h3>Brown Coat</h3>
+                    <h4>Rs 4500</h4>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="img-div">
+                    <a href="/single_product.html"><img src="/img/Products/4.jpg"></a>
+                </div>
+                <div class="product-desc font2">
+                    <h3>Brown Coat</h3>
+                    <h4>Rs 4500</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer font2 max-width-1">
+        <div class="footer-image">
+            <h1>Free Shipping World Wide </h1>
+            <img src="img/footer.jpg" alt="Free Shipping">
+            <a href="/products.html" class="btn" id="shopBtn">
+                Shop Now
+            </a>
+        </div>
+
+    </footer>
 </body>
 
 </html>
